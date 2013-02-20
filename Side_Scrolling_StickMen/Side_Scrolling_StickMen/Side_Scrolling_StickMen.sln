@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Side_Scrolling_StickMen", "Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen.csproj", "{E2305383-2693-4E10-BF78-BDA4B520E0A6}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Side_Scrolling_StickMenContent", "Side_Scrolling_StickMen\Side_Scrolling_StickMenContent\Side_Scrolling_StickMenContent.contentproj", "{14956BEF-D891-4F13-B635-6B1371D2A2A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2305383-2693-4E10-BF78-BDA4B520E0A6}.Debug|x86.ActiveCfg = Debug|x86
+		{E2305383-2693-4E10-BF78-BDA4B520E0A6}.Debug|x86.Build.0 = Debug|x86
+		{E2305383-2693-4E10-BF78-BDA4B520E0A6}.Release|x86.ActiveCfg = Release|x86
+		{E2305383-2693-4E10-BF78-BDA4B520E0A6}.Release|x86.Build.0 = Release|x86
+		{14956BEF-D891-4F13-B635-6B1371D2A2A2}.Debug|x86.ActiveCfg = Debug|x86
+		{14956BEF-D891-4F13-B635-6B1371D2A2A2}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
