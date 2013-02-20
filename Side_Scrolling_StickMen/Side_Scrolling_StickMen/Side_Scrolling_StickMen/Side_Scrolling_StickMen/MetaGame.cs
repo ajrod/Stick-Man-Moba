@@ -18,7 +18,7 @@ namespace Side_Scrolling_StickMen
 
         public const int RESOLUTION_WIDTH = 1280;
         public const int RESOLUTION_HEIGHT = 720;
-        public static Game game;
+        public static Game metaGame;
         public static Texture2D blank;
 
         public MetaGame()
@@ -26,7 +26,7 @@ namespace Side_Scrolling_StickMen
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             content = Content;
-            game = this;
+            metaGame = this;
             this.Window.Title = "Our Game";
             graphics.SynchronizeWithVerticalRetrace = false;
             this.IsMouseVisible = false;

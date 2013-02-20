@@ -8,10 +8,12 @@ namespace Side_Scrolling_StickMen
     public class MainGameScreen : Screen
     {
         public bool pause = false;
+        public StickGame stickGame;
 
         public MainGameScreen(EventHandler theScreenEvent)
             : base(theScreenEvent)
         {
+            stickGame = new StickGame();
         }
 
         public void checkGlobalInput()
@@ -37,10 +39,13 @@ namespace Side_Scrolling_StickMen
             base.Update(gameTime);
             checkGlobalInput();
             if (pause) return;
+            stickGame.Update(gameTime);
+
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
+            stickGame.Draw(spriteBatch);
             base.Draw(spriteBatch);
         }
     }

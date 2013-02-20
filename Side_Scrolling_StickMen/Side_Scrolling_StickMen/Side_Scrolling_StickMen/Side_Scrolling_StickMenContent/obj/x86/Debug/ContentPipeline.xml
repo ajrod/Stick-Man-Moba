@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Administrator\Documents\GitHub\Stick-Man-MOBA\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Screens\ControllerDetectScreen.xnb</Output>
-      <Time>2013-02-19T20:46:20.826067-05:00</Time>
+      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Screens\ControllerDetectScreen.xnb</Output>
+      <Time>2013-02-19T20:54:24.4641431-05:00</Time>
     </Item>
     <Item>
       <Source>MenuFont.spritefont</Source>
@@ -16,8 +16,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Administrator\Documents\GitHub\Stick-Man-MOBA\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2013-02-19T20:46:20.841667-05:00</Time>
+      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2013-02-19T20:54:24.3551369-05:00</Time>
     </Item>
     <Item>
       <Source>StartUpFont.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Administrator\Documents\GitHub\Stick-Man-MOBA\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\StartUpFont.xnb</Output>
-      <Time>2013-02-19T20:46:20.841667-05:00</Time>
+      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\StartUpFont.xnb</Output>
+      <Time>2013-02-19T20:54:24.5211464-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -34,10 +34,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Administrator\Documents\GitHub\Stick-Man-MOBA\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMenContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Administrator\Documents\GitHub\Stick-Man-MOBA\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Administrator\Documents\GitHub\Stick-Man-MOBA\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMenContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Administrator\Documents\GitHub\Stick-Man-MOBA\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMenContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMenContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -66,7 +66,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-09-26T21:45:11.3903554-04:00</Value>
+        <Value>2012-10-16T18:12:35.3813646-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

@@ -19,7 +19,7 @@ namespace Side_Scrolling_StickMen
 
             mControllerDetectScreenBackground = MetaGame.content.Load<Texture2D>("Screens/ControllerDetectScreen");
             font = MetaGame.content.Load<SpriteFont>("StartUpFont");
-            MetaGame.game.IsMouseVisible = false;
+            MetaGame.metaGame.IsMouseVisible = false;
         }
 
         //Update all of the elements that need updating in the Controller Detect Screen

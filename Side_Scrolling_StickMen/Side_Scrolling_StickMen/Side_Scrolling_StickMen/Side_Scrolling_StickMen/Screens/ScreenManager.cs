@@ -64,7 +64,7 @@ namespace Side_Scrolling_StickMen
                     mg.pause = false;
                     mCurrentScreen = mg;
                     mOldScreen = s;
-                    MetaGame.game.IsMouseVisible = true;
+                    MetaGame.metaGame.IsMouseVisible = true;
                     break;
                 //options
                 case 1:
@@ -95,7 +95,7 @@ namespace Side_Scrolling_StickMen
             mOldScreen = mCurrentScreen;
             mGameMenuScreen.Reset();
             mCurrentScreen = mGameMenuScreen;
-            MetaGame.game.IsMouseVisible = false;
+            MetaGame.metaGame.IsMouseVisible = false;
             mCurrentScreen.startFadingIn();
         }
 
@@ -113,7 +113,7 @@ namespace Side_Scrolling_StickMen
                     break;
                 //Exit game - add a prompt?
                 case 2:
-                    MetaGame.game.Exit();
+                    MetaGame.metaGame.Exit();
                     break;
                 default:
                     break;
@@ -124,7 +124,7 @@ namespace Side_Scrolling_StickMen
         private void LoadScreenEvent(object obj, EventArgs e)
         {
             //Level.Reset();
-            MetaGame.game.IsMouseVisible = true;
+            MetaGame.metaGame.IsMouseVisible = true;
             screenTansition(mMainGameScreen);
         }
     }
