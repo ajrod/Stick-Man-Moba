@@ -13,7 +13,7 @@ namespace Side_Scrolling_StickMen
         public double maxHP = 1;
         public double curHP = 1;
         // Boolean deciding if the Object should be drawn or not
-        public bool toDraw = false;
+        public bool toDraw = true;
 
         public GameObject(Sprite sprite, Vector2 position)
         {
@@ -25,11 +25,6 @@ namespace Side_Scrolling_StickMen
         {
             this.maxHP = maxHP;
             this.curHP = maxHP;
-        }
-
-        public GameObject()
-        {
-            this.toDraw = false;
         }
 
         public void Update(GameTime gameTime)
