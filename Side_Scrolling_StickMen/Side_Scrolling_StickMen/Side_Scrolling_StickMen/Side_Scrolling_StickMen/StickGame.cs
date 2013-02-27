@@ -28,6 +28,7 @@ namespace Side_Scrolling_StickMen
         public void Draw(SpriteBatch spriteBatch)
         {
             player.draw(spriteBatch);
+           
         }
     }
 }

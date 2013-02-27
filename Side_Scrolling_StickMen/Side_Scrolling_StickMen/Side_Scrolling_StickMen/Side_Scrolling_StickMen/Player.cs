@@ -34,12 +34,16 @@ namespace Side_Scrolling_StickMen
             //Moves the player to the right
             if (currentKeyboardState.IsKeyDown(Keys.Right))
             {
-                this.position.X += 5;
+                turnDir = 1;
             }
             //Moves the player to the left
-            if (currentKeyboardState.IsKeyDown(Keys.Left))
+            else if (currentKeyboardState.IsKeyDown(Keys.Left))
             {
-                this.position.X -= 5;
+                turnDir = -1;
+            }
+            else
+            {
+                turnDir = 0;
             }
             previousKeyboardState = currentKeyboardState;
         }
