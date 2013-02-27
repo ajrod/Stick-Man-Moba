@@ -1,14 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Media;
 
 namespace Side_Scrolling_StickMen
 {
@@ -19,13 +10,30 @@ namespace Side_Scrolling_StickMen
         public float scale = 1;
         public float angle;
         public float radius;
+        public double maxHP = 1;
+        public double curHP = 1;
         // Boolean deciding if the Object should be drawn or not
         public bool toDraw = true;
-         
+
         public GameObject(Sprite sprite, Vector2 position)
         {
             this.position = position;
             this.sprite = sprite;
+        }
+
+
+        public void setHealth(double maxHP)
+        {
+            this.maxHP = maxHP;
+            this.curHP = maxHP;
+        }
+
+        public void Update(GameTime gameTime)
+        {
+        }
+
+        public void Animate()
+        {
         }
 
 
