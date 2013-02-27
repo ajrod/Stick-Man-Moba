@@ -20,7 +20,7 @@ namespace Side_Scrolling_StickMen
         public float angle;
         public float radius;
         // Boolean deciding if the Object should be drawn or not
-        public bool toDraw = false;
+        public bool toDraw = true;
          
         public GameObject(Sprite sprite, Vector2 position)
         {
@@ -28,7 +28,6 @@ namespace Side_Scrolling_StickMen
             this.sprite = sprite;
         }
 
-        public GameObject() { this.toDraw = false; }
 
         public virtual void draw(SpriteBatch spriteBatch)
         {

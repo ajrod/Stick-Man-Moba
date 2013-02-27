@@ -1,3 +1,4 @@
 Content\Screens\ControllerDetectScreen.xnb
 Content\MenuFont.xnb
 Content\StartUpFont.xnb
+Content\StickManBasic.xnb

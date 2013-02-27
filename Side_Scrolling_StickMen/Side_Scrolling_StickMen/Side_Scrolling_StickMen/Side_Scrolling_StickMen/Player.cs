@@ -8,16 +8,17 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Side_Scrolling_StickMen
 {
-    public class Player
+    public class Player : GameObject
     {
         public KeyboardState currentKeyboardState;
         public KeyboardState previousKeyboardState;
         public MouseState currentMouseState;
         public MouseState previousMouseState;
+        public GameObject player;
 
-        public Player()
+        public Player(Sprite sprite, Vector2 position) : base(sprite, position)
         {
-
+           
         }
 
         public void Update()
@@ -28,7 +29,11 @@ namespace Side_Scrolling_StickMen
 
         public void checkKeyboard()
         {
-
+            if (currentKeyboardState.IsKeyDown(Keys.Right))
+            {
+                player.position.X += 1;
+            }
+            previousKeyboardState = currentKeyboardState;
         }
 
         public void checkMouse()

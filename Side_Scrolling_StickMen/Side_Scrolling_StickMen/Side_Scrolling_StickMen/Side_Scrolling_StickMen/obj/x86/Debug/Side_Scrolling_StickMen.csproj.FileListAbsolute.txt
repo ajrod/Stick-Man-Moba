@@ -16,3 +16,4 @@ C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scr
 C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\obj\x86\Debug\Side_Scrolling_StickMen.exe
 C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\obj\x86\Debug\Side_Scrolling_StickMen.pdb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\StickManBasic.xnb
