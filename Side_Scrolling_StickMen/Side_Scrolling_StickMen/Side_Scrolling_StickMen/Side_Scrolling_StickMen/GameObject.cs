@@ -28,7 +28,7 @@ namespace Side_Scrolling_StickMen
             this.curHP = maxHP;
         }
 
-        public void Update(GameTime gameTime)
+        public virtual void Update(GameTime gameTime)
         {
         }
 

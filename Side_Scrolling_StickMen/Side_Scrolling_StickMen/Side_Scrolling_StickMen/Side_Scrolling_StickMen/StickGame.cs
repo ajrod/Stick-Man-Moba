@@ -22,7 +22,7 @@ namespace Side_Scrolling_StickMen
         }
         public void Update(GameTime gameTime)
         {
-            player.Update();
+            player.Update(gameTime);
         }
 
         public void Draw(SpriteBatch spriteBatch)

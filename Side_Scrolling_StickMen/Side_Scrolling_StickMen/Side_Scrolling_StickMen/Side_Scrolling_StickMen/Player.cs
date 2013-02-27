@@ -14,24 +14,32 @@ namespace Side_Scrolling_StickMen
         public KeyboardState previousKeyboardState;
         public MouseState currentMouseState;
         public MouseState previousMouseState;
-        public GameObject player;
+
 
         public Player(Sprite sprite, Vector2 position) : base(sprite, position)
         {
            
         }
 
-        public void Update()
+        public override void Update(GameTime gameTime)
         {
             checkKeyboard();
             checkMouse();
+            base.Update(gameTime);
         }
 
         public void checkKeyboard()
         {
+            currentKeyboardState = Keyboard.GetState();
+            //Moves the player to the right
             if (currentKeyboardState.IsKeyDown(Keys.Right))
             {
-                player.position.X += 1;
+                this.position.X += 5;
+            }
+            //Moves the player to the left
+            if (currentKeyboardState.IsKeyDown(Keys.Left))
+            {
+                this.position.X -= 5;
             }
             previousKeyboardState = currentKeyboardState;
         }
