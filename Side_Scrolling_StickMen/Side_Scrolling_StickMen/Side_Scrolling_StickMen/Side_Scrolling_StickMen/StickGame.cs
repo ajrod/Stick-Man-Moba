@@ -23,8 +23,6 @@ namespace Side_Scrolling_StickMen
         {
             player.Update(gameTime);
 
-
-
             //player.Offset(playerTranslation);
         }
 
