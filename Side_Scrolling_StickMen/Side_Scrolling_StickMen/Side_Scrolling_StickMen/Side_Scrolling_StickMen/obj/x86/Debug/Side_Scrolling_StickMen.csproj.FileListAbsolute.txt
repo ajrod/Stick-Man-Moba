@@ -17,3 +17,12 @@ C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scr
 C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\obj\x86\Debug\Side_Scrolling_StickMen.exe
 C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\obj\x86\Debug\Side_Scrolling_StickMen.pdb
 C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\StickManBasic.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob0.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob1.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob2.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob3.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob4.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob5.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob6.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Vommit.xnb
+C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Stanstill bob.xnb
