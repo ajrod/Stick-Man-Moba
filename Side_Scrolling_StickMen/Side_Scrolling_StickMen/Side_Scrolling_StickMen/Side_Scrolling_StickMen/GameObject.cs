@@ -1,38 +1,69 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Media;
+using System;
 
 namespace Side_Scrolling_StickMen
 {
     public class GameObject
     {
+        //The game objects position in the world
         public Vector2 position;
+
+        //The current velocity of the game object.
+        public Vector2 velocity;
+
         public Sprite sprite;
         public float scale = 1;
-        public float speed;
+
+        public float acceleration;
         public float angle;
         public float radius;
         public double maxHP = 1;
         public double curHP = 1;
+
+        //Determines direction the object is moving in where -1 is left, 0 is rest, and 1 is right.
         public int turnDir = 0;
+
+        //This influences how fast a game object will decelerate to rest
+        public float friction = 0.925f; 
+        //This determines terminal velocity when an object is falling. 
+        //Higher resistance means a lower terminal velocity.
+        public float airResistance = 0.985f;
+        //The strength of gravity applied to the game object.
+        public float gravity = 15f;
+
+        //This factor determines the game objects slowest speed. If there x, or y speed falls below
+        //this threshold it will be rounded to 0.
+        public float slowestSpeed = 0.05f;
         // Boolean deciding if the Object should be drawn or not
         public bool toDraw = true;
+
+        //True iff the object is on a floor
+        public bool onFloor = false;
+        public float offFloorCt = 0;
+
+        //This determines the amount of time a game object transition from floor to free fall. 
+        //This creates a delayed falling effect similiar to what is seen in cartoons.
+        public float offFloorTime = 0.2f;
+
+        //True iff the game object has a hit box.
+        public bool hasCollisionBox = false;
+
+        //The polygonal hitbox of the game object
+        public Polygon hitbox = null;
 
         public GameObject(Sprite sprite, Vector2 position)
         {
             this.position = position;
             this.sprite = sprite;
-            speed = 100;
+            acceleration = 100;
         }
 
+        public void setHitbox(Polygon hitbox)
+        {
+            this.hitbox = hitbox;
+            this.hasCollisionBox = true;
+        }
 
         public void setHealth(double maxHP)
         {
@@ -49,7 +80,6 @@ namespace Side_Scrolling_StickMen
         {
         }
 
-
         public virtual void draw(SpriteBatch spriteBatch)
         {
             if (toDraw)
@@ -58,16 +88,69 @@ namespace Side_Scrolling_StickMen
             }
         }
 
-        public virtual void  applyGravity(float time)
+        public virtual void applyGravity(float time)
         {
-            this.position.Y += 0;
+            this.velocity.Y += gravity * time;
+            this.velocity.Y *= airResistance;
         }
 
         public void move(float time)
         {
-            this.position.X += turnDir * speed * time ;
+
+            this.velocity.X += turnDir * acceleration * time;
             //this.position.Y += ...
-            applyGravity(time);
+
+            if (!onFloor)
+            {
+                applyGravity(time);
+            }
+            Side_Scrolling_StickMen.PhysicsEngine.PolygonCollisionResult result =
+    PhysicsEngine.PolygonCollision(this.hitbox, StickGame.floor.hitbox, this.velocity);
+
+            if (result.WillIntersect)
+            {
+                Vector2 translationVector = result.MinimumTranslationVector;
+                translationVector.X *= 1.05f;
+                translationVector.Y = (translationVector.Y + gravity/1000f)*1.10f;
+                this.velocity += translationVector;
+
+            }
+            if (velocity.Y < slowestSpeed && velocity.Y > 0)
+            {
+                this.onFloor = true;
+                this.offFloorCt = 0;
+                velocity.Y = 0;
+            }
+            else if (onFloor)
+            {
+                this.offFloorCt += time;
+                if (this.offFloorCt > this.offFloorTime)
+                {
+                    this.onFloor = false;
+                }
+            }
+           
+            if (Math.Abs(velocity.X) < slowestSpeed)
+            {
+                velocity.X = 0;
+            }
+            this.setPosition(this.position + velocity);
+
+
+            if (hasCollisionBox)
+            {
+                this.hitbox.Offset(velocity);
+                this.hitbox.BuildEdges();
+            }
+            velocity.X *= friction;
+        }
+        public void setPosition(Vector2 p)
+        {
+            if (hasCollisionBox)
+            {
+                this.position = p;
+                this.hitbox.setPosition(p);
+            }
         }
     }
 }

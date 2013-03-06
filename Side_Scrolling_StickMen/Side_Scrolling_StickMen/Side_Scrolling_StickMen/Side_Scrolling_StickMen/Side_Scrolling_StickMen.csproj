@@ -107,7 +107,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PhysicsEngine.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="Polygon.cs" />
     <Compile Include="Shapes.cs" />
     <Compile Include="StickGame.cs" />
     <Compile Include="GameObject.cs" />
@@ -123,6 +125,7 @@
     <Compile Include="Screens\ScreenManager.cs" />
     <Compile Include="Screens\TitleScreen.cs" />
     <Compile Include="Sprite.cs" />
+    <Compile Include="WorldObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

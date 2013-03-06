@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Xna.Framework;
+using System.Diagnostics;
 
 namespace Side_Scrolling_StickMen
 {
@@ -7,6 +8,7 @@ namespace Side_Scrolling_StickMen
     {
         private List<Vector2> points = new List<Vector2>();
         private List<Vector2> edges = new List<Vector2>();
+
 
         public void BuildEdges()
         {
@@ -33,11 +35,24 @@ namespace Side_Scrolling_StickMen
             get { return edges; }
         }
 
+        public void addPoint(Vector2 p)
+        {
+            for (int i = 0; i < points.Count; i++)
+            {
+                Debug.Assert(points[i] != p);
+            }
+            points.Add(p);
+            BuildEdges();
+        }
         public List<Vector2> Points
         {
             get { return points; }
         }
 
+        public void setPosition(Vector2 position)
+        {
+            this.Offset(position - this.Center);
+        }
         public Vector2 Center
         {
             get
@@ -57,6 +72,7 @@ namespace Side_Scrolling_StickMen
         public void Offset(Vector2 v)
         {
             Offset(v.X, v.Y);
+            BuildEdges();
         }
 
         public void Offset(float x, float y)

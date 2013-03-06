@@ -2,3 +2,4 @@ Content\Screens\ControllerDetectScreen.xnb
 Content\StickManBasic.xnb
 Content\MenuFont.xnb
 Content\StartUpFont.xnb
+Content\FakeFloor.xnb
