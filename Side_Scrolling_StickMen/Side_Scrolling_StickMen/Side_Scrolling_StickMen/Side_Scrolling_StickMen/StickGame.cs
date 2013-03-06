@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace Side_Scrolling_StickMen
@@ -10,6 +6,7 @@ namespace Side_Scrolling_StickMen
     public class StickGame
     {
         public Player player;
+        public static WorldObject floor;
 
         public StickGame()
         {
@@ -18,17 +15,21 @@ namespace Side_Scrolling_StickMen
 
         public void LoadContent()
         {
-            player = new Player(new Sprite("StickManBasic"), new Vector2(200,200));
+            player = new Player(new Sprite("StickManBasic"), new Vector2(200, 200));
+            floor = new WorldObject(new Sprite("FakeFloor"), new Vector2(0, 600));
         }
+
         public void Update(GameTime gameTime)
         {
             player.Update(gameTime);
+
+            //player.Offset(playerTranslation);
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
+            floor.draw(spriteBatch);
             player.draw(spriteBatch);
-           
         }
     }
 }
