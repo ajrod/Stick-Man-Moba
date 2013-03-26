@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Screens\ControllerDetectScreen.xnb</Output>
-      <Time>2013-02-19T20:54:24.4641431-05:00</Time>
+      <Time>2013-02-19T20:46:22-05:00</Time>
     </Item>
     <Item>
       <Source>StickManBasic.bmp</Source>
@@ -17,25 +17,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\StickManBasic.xnb</Output>
-      <Time>2013-02-26T19:04:51.5023364-05:00</Time>
+      <Time>2013-02-26T19:44:14-05:00</Time>
     </Item>
     <Item>
-      <Source>MenuFont.spritefont</Source>
-      <Name>MenuFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
+      <Source>FakeFloor.bmp</Source>
+      <Name>FakeFloor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\MenuFont.xnb</Output>
-      <Time>2013-02-19T20:54:24.3551369-05:00</Time>
-    </Item>
-    <Item>
-      <Source>StartUpFont.spritefont</Source>
-      <Name>StartUpFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\StartUpFont.xnb</Output>
-      <Time>2013-02-19T20:54:24.5211464-05:00</Time>
+      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\FakeFloor.xnb</Output>
+      <Time>2013-03-05T18:27:24-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Walking\Walking bob0.bmp</Source>
@@ -44,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob0.xnb</Output>
-      <Time>2013-03-05T20:13:27.2384627-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Walking\Walking bob1.bmp</Source>
@@ -53,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob1.xnb</Output>
-      <Time>2013-03-05T20:13:27.2394627-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Walking\Walking bob2.bmp</Source>
@@ -62,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob2.xnb</Output>
-      <Time>2013-03-05T20:13:27.2404628-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Walking\Walking bob3.bmp</Source>
@@ -71,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob3.xnb</Output>
-      <Time>2013-03-05T20:13:27.2404628-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Walking\Walking bob4.bmp</Source>
@@ -80,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob4.xnb</Output>
-      <Time>2013-03-05T20:13:27.2414629-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Walking\Walking bob5.bmp</Source>
@@ -89,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob5.xnb</Output>
-      <Time>2013-03-05T20:13:27.2424629-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Walking\Walking bob6.bmp</Source>
@@ -98,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Walking\Walking bob6.xnb</Output>
-      <Time>2013-03-05T20:13:27.243463-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Bob Vommit.bmp</Source>
@@ -107,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Bob Vommit.xnb</Output>
-      <Time>2013-03-05T20:13:46.8765859-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
     </Item>
     <Item>
       <Source>Bob\Stanstill bob.bmp</Source>
@@ -116,7 +107,25 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\Bob\Stanstill bob.xnb</Output>
-      <Time>2013-03-05T20:13:46.877586-05:00</Time>
+      <Time>2013-03-05T20:25:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuFont.spritefont</Source>
+      <Name>MenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2013-02-19T20:46:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>StartUpFont.spritefont</Source>
+      <Name>StartUpFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\GitHub\Stick-Man-Moba\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\Side_Scrolling_StickMen\bin\x86\Debug\Content\StartUpFont.xnb</Output>
+      <Time>2013-02-19T20:46:22-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

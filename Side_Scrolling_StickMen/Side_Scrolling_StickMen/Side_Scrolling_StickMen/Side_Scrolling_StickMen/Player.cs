@@ -15,10 +15,11 @@ namespace Side_Scrolling_StickMen
         {
             Polygon polygon = new Polygon();
             int width = 228;
-            polygon.Points.Add(new Vector2(-width / 2, -width / 2));
-            polygon.Points.Add(new Vector2(width / 2, -width / 2));
-            polygon.Points.Add(new Vector2(width / 2, width / 2));
-            polygon.Points.Add(new Vector2(-width / 2, width / 2));
+            float shrinkBox = 3;
+            polygon.Points.Add(new Vector2(-width / shrinkBox, -width / shrinkBox));
+            polygon.Points.Add(new Vector2(width / shrinkBox, -width / shrinkBox));
+            polygon.Points.Add(new Vector2(width / shrinkBox, width / shrinkBox));
+            polygon.Points.Add(new Vector2(-width / shrinkBox, width / shrinkBox));
             polygon.Offset(this.position);
             polygon.BuildEdges();
             this.setHitbox(polygon);

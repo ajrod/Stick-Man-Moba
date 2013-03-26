@@ -73,7 +73,7 @@ namespace Side_Scrolling_StickMen
         public void draw(SpriteBatch sprite, Vector2 drawLocation, float angle = 0)
         {
             Rectangle sourceRectangle = new Rectangle(frameWidth * currentFrameWidth, frameHeight * currentFrameHeight, frameWidth, frameHeight);
-            sprite.Draw(picture, drawLocation, sourceRectangle, tint, MathHelper.ToRadians(angle), pivot, scale, SpriteEffects.None, 1);
+            sprite.Draw(picture, drawLocation - StickGame.viewOffset, sourceRectangle, tint, MathHelper.ToRadians(angle), pivot, scale, SpriteEffects.None, 1);
         }
     }
  }

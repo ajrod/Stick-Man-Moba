@@ -7,6 +7,8 @@ namespace Side_Scrolling_StickMen
     {
         public Player player;
         public static WorldObject floor;
+        public static Vector2 viewOffset;
+
 
         public StickGame()
         {
@@ -28,8 +30,15 @@ namespace Side_Scrolling_StickMen
 
         public void Draw(SpriteBatch spriteBatch)
         {
+            setViewOffset();
             floor.draw(spriteBatch);
             player.draw(spriteBatch);
+        }
+
+        public void setViewOffset()
+        {
+            viewOffset.X = player.position.X - (MetaGame.RESOLUTION_WIDTH / 2);
+            viewOffset.Y = player.position.Y - (MetaGame.RESOLUTION_HEIGHT / 2);
         }
     }
 }

@@ -32,9 +32,9 @@ namespace Side_Scrolling_StickMen
         //The strength of gravity applied to the game object.
         public float gravity = 15f;
 
-        //This factor determines the game objects slowest speed. If there x, or y speed falls below
-        //this threshold it will be rounded to 0.
-        public float slowestSpeed = 0.05f;
+        //This factor determines the game objects slowest speed. If x falls below slowest speed it is rounded down to 0.
+        public float slowestXSpeed = 0.05f;
+        public float slowestYSpeed = 0.1f;
         // Boolean deciding if the Object should be drawn or not
         public bool toDraw = true;
 
@@ -115,7 +115,7 @@ namespace Side_Scrolling_StickMen
                 this.velocity += translationVector;
 
             }
-            if (velocity.Y < slowestSpeed && velocity.Y > 0)
+            if (velocity.Y < slowestXSpeed && velocity.Y > 0)
             {
                 this.onFloor = true;
                 this.offFloorCt = 0;
@@ -129,10 +129,15 @@ namespace Side_Scrolling_StickMen
                     this.onFloor = false;
                 }
             }
-           
-            if (Math.Abs(velocity.X) < slowestSpeed)
+
+            if (Math.Abs(velocity.X) < slowestXSpeed)
             {
                 velocity.X = 0;
+            }
+
+            if (Math.Abs(velocity.Y) < slowestYSpeed)
+            {
+                velocity.Y = 0;
             }
             this.setPosition(this.position + velocity);
 
